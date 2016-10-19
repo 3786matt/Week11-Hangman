@@ -54,7 +54,7 @@ var Word = function(wrd){
 	this.wordRender = function() {
 // render the word based on if letters are found or ot found
 		var str = "";
-		for(var i=0; i<lettsArray.length; i++){
+		for(var i=0; i<this.lettsArray.length; i++){
 			str = str+this.lettsArray[i].letterRender();
 		}
 
