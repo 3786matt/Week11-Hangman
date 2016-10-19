@@ -78,7 +78,7 @@ game = {
 		    				console.log('Letters previously chosen: '+self.guessedLetters);
 
 		    				if((self.currentWrd.find==false) && (self.guessesRemaining>0)){
-		    					this.keepPromptingUser();
+		    					self.keepPromptingUser();
 		    				}
 		    				else if(self.guessesRemaining==0){
 		    					console.log('Game Over. The correct word was: '+self.currentWrd.word);
